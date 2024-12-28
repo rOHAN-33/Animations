@@ -18,7 +18,7 @@ function revealToSpan(){
     var tl = gsap.timeline();
     tl
     .from(" .child span",{
-        x:"98%",
+        x:"50%",
         ease:Power3.easeInOut,
         stagger:.2,
         duration:1.5,
